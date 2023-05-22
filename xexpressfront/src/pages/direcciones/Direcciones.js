@@ -159,7 +159,7 @@ export default function Direcciones() {
     }
 
     useEffect(() => {
-        CargarDirecciones();
+        //CargarDirecciones();
     }, [])
 
     const seleccionarDireccion= (cliente, caso) => {

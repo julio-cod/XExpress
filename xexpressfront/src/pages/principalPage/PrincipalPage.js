@@ -9,7 +9,7 @@ export default function PrincipalPage() {
     return (
         <div >
         <Routes>
-        <Route path="/*" element={<Home />} />
+        <Route path="/*" element={<DrawersMenuUserAdmin />} />
         <Route path="/Home/*" element={<Home />} />
         <Route path="/DrawersMenuUserAdmin/*" element={<DrawersMenuUserAdmin />} />
         <Route path="/DrawersMenuUser/*" element={<DrawersMenuUser />} />

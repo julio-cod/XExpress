@@ -16,7 +16,11 @@ export default function Home() {
     //const [spacing, setSpacing] = useState(2);
     return (
         <div >
-        <h1 className="container text-secondary">Sistema de Gestion X-Express</h1>
+          <div >
+      
+       <h1 className="container text-secondary">Sistema de Gestion X-Express</h1>
+    </div>
+       
         <div className="container">
         <Card >
           <CardActionArea >

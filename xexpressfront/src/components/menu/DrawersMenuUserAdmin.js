@@ -137,7 +137,7 @@ function DrawersMenuUserAdmin(props) {
             <MenuIcon />
           </IconButton>
           <div className="container">
-            <Navigation state={{ envioProducto: 2 }} />
+            <Navigation />
             {/*<MenuNav/>*/}
           </div>
         </Toolbar>
@@ -180,6 +180,7 @@ function DrawersMenuUserAdmin(props) {
       >
         <Toolbar />
         <Routes>
+        <Route path="/*" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Clientes" element={<Clientes />} />
           <Route path="/Direcciones" element={<Direcciones />} />
@@ -188,6 +189,7 @@ function DrawersMenuUserAdmin(props) {
       </Box>
 
     </Box>
+    
   );
 }
 

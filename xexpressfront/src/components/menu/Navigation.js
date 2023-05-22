@@ -11,8 +11,6 @@ import Modal from 'react-bootstrap/Modal';
 
 export default function Navigation() {
     const navigate = useNavigate();
-    const [asistencia, setAsistencia] = useState('');
-    const [linkAsistenciaUser, setLinkAsistenciaUser] = useState('');
 
     const [modalAcercaDe, setModalAcercaDe] = useState(false);
 

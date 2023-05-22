@@ -1,6 +1,6 @@
 
 //Produccion
-//export const ApiRestBase = 'http://172.30.3.60:9095/api/';
+//export const ApiRestBase = 'http://192.168.1.41:9095/api/';
 
 //Desarrollo
 export const ApiRestBase = 'https://localhost:7194/api/';

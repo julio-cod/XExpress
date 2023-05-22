@@ -31,7 +31,7 @@ const columns = [
     { id: 'provincia', label: 'Provincia', minWidth: 100 },
 ];
 
-export default function DireccionesPersonalizadas(props) {
+export default function DireccionesPersonalizadas() {
     let {idclienteparam,nombreparam} = useParams();
     const baseUrlListaDireccionesByIdCliente = ApiRestBase  + ApiControladorDireccion + ApiBuscarDireccionesByIdCliente;
     const baseUrlRegistrarDireccion = ApiRestBase  + ApiControladorDireccion + ApiRegistroDireccion;
